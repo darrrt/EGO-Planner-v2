@@ -8,6 +8,7 @@ set(CMAKE_CXX_FLAGS_RELEASE "-O3 -Wall -g")
 
 find_package(Eigen3 REQUIRED)
 find_package(PCL 1.7 REQUIRED)
+find_package(OpenCV 4.10 REQUIRED)
 
 find_package(catkin REQUIRED COMPONENTS
   roscpp
@@ -15,7 +16,7 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   visualization_msgs
   plan_env
-  cv_bridge
+  my_cv_bridge
 )
 
 

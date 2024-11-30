@@ -7,7 +7,7 @@
 #include <nav_msgs/Odometry.h>
 #include <std_msgs/Empty.h>
 #include <traj_utils/MINCOTraj.h>
-#include <quadrotor_msgs/GoalSet.h>
+#include "quadrotor_msgs/GoalSet.h"
 #include <sensor_msgs/Joy.h>
 
 #include <unistd.h>

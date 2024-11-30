@@ -6,7 +6,7 @@ ADD_COMPILE_OPTIONS(-std=c++11 )
 ADD_COMPILE_OPTIONS(-std=c++14 )
 set(CMAKE_CXX_FLAGS_RELEASE "-O3 -Wall -g")
 
-find_package(OpenCV REQUIRED)
+find_package(OpenCV 4.10 REQUIRED)
 
 
 find_package(catkin REQUIRED COMPONENTS
@@ -14,7 +14,7 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
   visualization_msgs
-  cv_bridge
+  my_cv_bridge
   message_filters
 )
 
